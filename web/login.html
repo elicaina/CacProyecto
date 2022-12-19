@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.1.1">
+    <title>Login de usuario</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+    </style>
+    <link href="./css/signing.css" rel="stylesheet">
+</head>
+<body class="text-center bg-light">
+    <div class="container mt-3 mb-4 mt-5 text-center">
+        <div class="row justify-content-center">
+    <form class="form-signin" action="checkuser" method="post" style="justify-content: center;">
+<img class="mb-4" src="./images/logo.jpg" alt="" width="72" height="72">
+<h1 class="h3 mb-3 font-weight-normal">Ingresar al sistema</h1>
+<label for="inputEmail" class="sr-only">Email / Usuario</label>
+<input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email Address" required autofocus>
+<label for="inputPassword" class="sr-only">Clave</label>
+<input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required>
+<div class="checkbox mb-3"></div>
+
+<button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+<p class="mt-5 mb-3 text-muted">& Copy; 2017-2020</p>
+</div>
+</form>
+</body>
+</html>
